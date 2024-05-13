@@ -1,0 +1,116 @@
+.adminPage{
+    min-height: 100vh;
+    background: #FFF8F0;
+    .headingText{
+        text-align: center;
+        padding: 20px;
+        font-size: 50px;
+        letter-spacing: 1px;
+    }
+    .addSection{
+        border: 1px solid black;
+        display: flex;
+        align-items: start;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 20px;
+        padding: 40px;
+
+        .inpt-box{
+            flex: 1;
+            
+            input,select{
+                width: 100%;
+                min-width: 300px;
+                padding: 8px 16px;
+                font-size: 16px;
+                background: transparent;
+                border: 1px solid black;
+                color: gray;
+                letter-spacing: .8px;
+            }
+            span{
+                color: red;
+                font-size: 16px;
+                letter-spacing: .8px;
+            }
+            
+        }
+        
+        button{
+            background: #000;
+            color: #FFF8F0;
+            padding: 8px 16px;
+            font-weight: 500;
+            font-size: 22px;
+            letter-spacing: .8px;
+            width: 100%;
+            padding: 6px;
+
+        }
+    }
+
+    .edit{
+        padding: 20px 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        button{
+            border: none;
+            width: 100%;
+            max-width: 300px;
+            background: gray;
+            color: #fff;
+            padding: 8px;
+            font-size: 18px;
+        }
+    }
+    .allProducts{
+        display: flex;
+        align-items: center;
+        gap: 32px;
+        padding: 20px 0;
+        flex-wrap: wrap;
+        .product-card{
+            width: 400px;
+            height: 420px;
+            border: 1px solid black;
+            padding: 12px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 12px;
+            position: relative;
+            .deleteBtn{
+                position: absolute;
+                top: -20px;
+                border: none;
+                border-radius: 50%;
+                right: -20px;
+                background: red;
+                color: #fff;
+                width: 40px;
+                height: 40px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                cursor: pointer;
+
+            }
+            img{
+                max-width: 200px;
+                height: 220px;
+                object-fit: cover;
+            }
+            p{
+                color: gray;
+                font-size: 18px;
+                span{
+                    font-size: 22px;
+                    color: black;
+                }
+            }
+        }
+    }
+}

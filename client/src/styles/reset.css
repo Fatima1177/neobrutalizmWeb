@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    bottom: 0;
+    outline: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+button{
+    cursor: pointer;
+}
+body{
+    background: #FFF8F0;
+
+}
+.container{
+    width: 100%;
+    max-width: 1232px;
+    margin: 0 auto;
+}
+
+/*GLOBAL CSS*/
+.products-wrapper{
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}

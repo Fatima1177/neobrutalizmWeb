@@ -1,0 +1,39 @@
+.CollectionSec{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 100px;
+    .linkBox{
+        border-bottom: 1px solid black;
+        .miniBox{
+            transition: .5s;
+            a{
+                padding: 37px 18px;
+                border-top: 1px solid black;
+                display: flex;
+                justify-content: space-between;
+                gap: 100px;
+                span{
+                    width: 400px;
+                    font-weight: 600;
+                    font-size: 28px;
+                    color: black;
+                    
+                }
+            }
+            &:hover{
+            transform: scale(1.01);
+        }
+ }
+    }
+    .imgBox{
+        border: 1px solid black;
+        img{
+            transform: translate(-3.3%, -1%);
+            max-width: 470px;
+            height: 500px;
+
+        }
+        
+    }
+}
